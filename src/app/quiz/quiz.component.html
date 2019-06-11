@@ -1,0 +1,30 @@
+
+<div  class="container quiz-box">
+    <div class="quiz-list">
+        <form name="quiz">
+        <div *ngFor="let c of quizes ; let i=index">
+            <h2>{{c.question}}</h2>
+           <div>
+              <input type="radio" name="{{c.id}}" value="a"  [(ngModel)]="c.selected" >
+              <label>a){{c.a}}</label>
+            </div>
+            <div>
+                <input type="radio" name="{{c.id}}" value="b"  [(ngModel)]="c.selected">
+                <label>b){{c.b}}</label>
+              </div>
+              <div>
+                  <input type="radio" name="{{c.id}}" value="c"  [(ngModel)]="c.selected">
+                  <label>c){{c.c}}</label>
+                </div>
+                <div>
+                    <input type="radio" name= "{{c.id}}" value="d"  [(ngModel)]="c.selected">
+                    <label>d) {{c.d}}</label>
+                  </div>
+        </div>
+      </form>
+    </div>
+    <br>
+   <input name="Submit" (click)="onSubmit()" value="Submit" type="submit">
+</div>
+
+

@@ -1,0 +1,47 @@
+[
+  {
+      "id": 1, 
+      "question": "Inventor of java?", 
+      "a": "Pavan.c", 
+      "b":"James Gosling", 
+      "c" :"Richie Richie", 
+      "d":"Amos.Emmanual", 
+      "answer": "c"
+    },
+    {
+      "id": 2, 
+      "question": "Inventor of java?", 
+      "a": "Nayan.c", 
+      "b":"Ärmesh", 
+      "c":"Denish Richie", 
+      "d":"Kiran.DY", 
+      "answer": "c"
+    },
+    {
+      "id": 3, 
+      "question": "how is java?", 
+      "a": "Easy", 
+      "b":"Difficult", 
+      "c":"moderate", 
+      "d":"none", 
+      "answer": "a"
+    },
+    {
+      "id": 4, 
+      "question": "Inventor of cprogram?", 
+      "a": "a", 
+      "b":"b", 
+      "c":"c", 
+      "d":"d", 
+      "answer": "a"
+    } ,
+    {
+      "id": 5,
+      "question": "Inventor of cprogram?", 
+      "a": "a", 
+      "b":"b", 
+      "c":"c", 
+      "d":"d", 
+      "answer": "b"
+    }
+]
